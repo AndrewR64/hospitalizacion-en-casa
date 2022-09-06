@@ -99,12 +99,15 @@ WSGI_APPLICATION = 'authProject.wsgi.application'
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+            'default': {
+                'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                'NAME': 'dcdkjofujke0m8',
+                'USER': 'frjehmokhejfwz',
+                'PASSWORD': '63fe006f2b7e565a559559c140169223eb596bbd42a50844b1c09e422b540a4c',
+                'HOST': 'ec2-44-199-22-207.compute-1.amazonaws.com',
+                'PORT': '5432',
+            }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
