@@ -1,11 +1,5 @@
-# hospitalizacion-en-casa
-Este archivo contiene los cambios hechos el dia sabado 3 de septiembre se añadieron los despliegues a la base de datos en heroku, y se hizo una correccion en la raiz 
-del archivo que no permitia correr el servidor.
+DATOS SPRINT 2 
 
-****DESPUES DE ACTUALIZAR LOS NUEVOS CAMBIOS CORRER EL SERVIDOR****
+************NOTA**********
 
-python manage.py runserver 
-
-py manage.py runserver = Si no funciona el anterior 
-
-RECORDAR: verificar la instalacion de los compenentes locales y estar el env activo.
+El archivo no sirve aun, hay un error solo se subio para tener una evidiencia. Proximante se subira una actulizacion con el codigo funcionando 
