@@ -1,0 +1,4 @@
+from .usuarioserializer import Usuarioloserserializer
+from .PSaludserializer import psaludserializer
+from .Pacienteserializer import pacienteserializer
+from .Familiarserializer import familiarserializers
